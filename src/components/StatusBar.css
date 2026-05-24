@@ -1,0 +1,34 @@
+.statusbar {
+  height: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 16px;
+  background-color: var(--bg-secondary);
+  border-top: 1px solid var(--border);
+  font-size: 12px;
+}
+
+.statusbar-left,
+.statusbar-right {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.status-item {
+  color: var(--text-secondary);
+}
+
+.status-ready {
+  color: var(--success);
+}
+
+.status-ai-connected {
+  color: #4ade80;
+  font-weight: 600;
+}
+
+.status-ai-disconnected {
+  color: var(--text-secondary);
+}

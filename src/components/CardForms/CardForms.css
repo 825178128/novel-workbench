@@ -1,0 +1,85 @@
+/* 只读字段样式 */
+.readonly-value {
+  padding: 10px;
+  background-color: var(--bg-tertiary);
+  border-radius: 6px;
+  color: var(--text-secondary);
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.readonly-list {
+  padding: 10px;
+  background-color: var(--bg-tertiary);
+  border-radius: 6px;
+  color: var(--text-secondary);
+  font-size: 13px;
+  line-height: 1.6;
+}
+
+.readonly-list-item {
+  padding: 8px 0;
+  border-bottom: 1px solid var(--border);
+}
+
+.readonly-list-item:last-child {
+  border-bottom: none;
+}
+
+.readonly-list-item strong {
+  color: var(--text-primary);
+}
+
+/* 复选框组样式 */
+.checkbox-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.checkbox-item {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 12px;
+  background-color: var(--bg-tertiary);
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 13px;
+  color: var(--text-secondary);
+  transition: all 0.15s;
+}
+
+.checkbox-item:hover {
+  background-color: var(--bg-hover);
+  color: var(--text-primary);
+}
+
+.checkbox-item input[type="checkbox"] {
+  cursor: pointer;
+}
+
+/* 标签快捷添加 */
+.tag-quick-add {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 8px;
+}
+
+.tag-btn {
+  padding: 6px 12px;
+  border: 1px solid var(--border);
+  background: transparent;
+  color: var(--text-secondary);
+  border-radius: 16px;
+  cursor: pointer;
+  font-size: 12px;
+  transition: all 0.15s;
+}
+
+.tag-btn:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+  background-color: var(--bg-hover);
+}
